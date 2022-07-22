@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T06:22:23.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="POcoGY6pyG4rGA6DguWE" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T06:28:46.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="ZaU0HzWAj_xyC3kozTHv" version="20.1.2" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,6 +126,27 @@
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-46" value="第三方上传" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-590" y="265" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MO-1pDGfZUei4c9xiznD-51" target="MO-1pDGfZUei4c9xiznD-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-51" value="旁支需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="960" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="960" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MO-1pDGfZUei4c9xiznD-55" target="MO-1pDGfZUei4c9xiznD-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-55" value="实时状态中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-57" value="指令中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MO-1pDGfZUei4c9xiznD-60" value="实时位置、实时报警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

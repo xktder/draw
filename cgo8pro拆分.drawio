@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T05:45:51.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="inSPw46mfDblThiGRsHf" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T05:47:40.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="KuLxfJbucecl7Qin6ceH" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NC4zICWyeDeuLVRUKaV7-85" value="数据接入服务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="2660" width="400" height="350" as="geometry" />
+          <mxGeometry x="-709.5" y="2670" width="409.5" height="400" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-600" y="2130" width="510" height="120" as="geometry" />
@@ -292,8 +292,8 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-65" target="NC4zICWyeDeuLVRUKaV7-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-65" value="终端、平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560.5" y="2500" width="120" height="60" as="geometry" />
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-65" value="终端、平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-560.5" y="2510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-66" target="NC4zICWyeDeuLVRUKaV7-69">
           <mxGeometry relative="1" as="geometry" />
@@ -307,29 +307,32 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-69" value="Netty【分包、解包、打包】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-590.75" y="2690" width="179" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-72" target="NC4zICWyeDeuLVRUKaV7-76">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-86" target="NC4zICWyeDeuLVRUKaV7-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-72" value="协议匹配器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-561.25" y="2770" width="120.5" height="40" as="geometry" />
+          <mxGeometry x="-561.5" y="2770" width="121.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-76" target="NC4zICWyeDeuLVRUKaV7-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-76" value="上行&lt;br&gt;buffer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-600.75" y="2850" width="76.25" height="60" as="geometry" />
+          <mxGeometry x="-601.5" y="2890" width="76.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-78" target="NC4zICWyeDeuLVRUKaV7-72">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-78" target="NC4zICWyeDeuLVRUKaV7-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-78" target="NC4zICWyeDeuLVRUKaV7-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-78" value="下行&lt;br&gt;buffer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-478.25" y="2850" width="79.5" height="60" as="geometry" />
+          <mxGeometry x="-479" y="2890" width="79.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-80" value="指令匹配规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-602.25" y="2950" width="202" height="40" as="geometry" />
+          <mxGeometry x="-603" y="2990" width="202" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-86" value="终端列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-561.5" y="2810" width="121.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

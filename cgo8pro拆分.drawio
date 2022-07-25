@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T06:09:47.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="Vn0OnksLqEr19XQHelAW" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T06:10:22.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="n1ukufNNkPPgJpIRECvv" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,8 +410,13 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-112" target="NC4zICWyeDeuLVRUKaV7-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-119" value="http请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-117">
+          <mxGeometry x="-0.1818" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-112" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-561.25" y="3960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-560" y="3960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-113" value="应答指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="4170" width="118.5" height="60" as="geometry" />
@@ -420,7 +425,10 @@
           <mxGeometry x="-30" y="4062" width="118.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-116" value="请求指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-561.25" y="4130" width="120" height="60" as="geometry" />
+          <mxGeometry x="-560" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-118" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-626.5" y="4380" width="663" height="478" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

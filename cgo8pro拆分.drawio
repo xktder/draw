@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T07:53:09.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="FuzpA_87GXZaY1Spt2NB" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:58:38.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="lJn5hva5L23PGFRrOUpA" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
-    <mxGraphModel dx="1694" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -645,6 +645,36 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-207" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="4340" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-209" value="websocket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="4420" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-210" value="http" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="4420" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-211" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="4470" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-212" value="指令管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="4530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-213" value="实时数据管理&lt;br&gt;位置、报警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="4530" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-215" value="分析后位置队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="4700" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-216" value="分析后报警队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="4700" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-218" value="待发送指令队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="580" y="4700" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-219" value="高优先级待发送指令队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="4700" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-220" value="各指令应答队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="725" y="4700" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

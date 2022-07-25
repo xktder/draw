@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T02:14:40.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="n7uMx79SJAgrR9MYzTQA" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T02:19:57.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="GA_7Z8GTbZgF4J1Oxhjq" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
-    <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,11 +152,11 @@
           <mxGeometry x="-800" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-2" value="视频调度中心&lt;br&gt;维护视频负载的调配&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="1366.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="-230" y="1306.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-3" target="NC4zICWyeDeuLVRUKaV7-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-490" y="1396.5" as="targetPoint" />
+            <mxPoint x="-460" y="1336.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-5" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;客户端可进行提前加载调度算法&lt;br&gt;，并定期进行更新&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-4">
@@ -164,8 +164,25 @@
             <mxPoint x="50" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-3" target="NC4zICWyeDeuLVRUKaV7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-10" value="默认指定端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-7">
+          <mxGeometry x="-0.1838" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-3" value="客户端" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" vertex="1" parent="1">
-          <mxGeometry x="-650" y="1360" width="100" height="73" as="geometry" />
+          <mxGeometry x="-680" y="1300" width="100" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-6" target="NC4zICWyeDeuLVRUKaV7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-6" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-682.5" y="1460" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-8" value="srs流媒体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-682.5" y="1560" width="105" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

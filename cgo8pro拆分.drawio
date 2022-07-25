@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T08:09:15.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="G1rtHTaOdYwXdoyKJDLF" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T08:25:05.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="ysDLVcQ9sevftgi3FdGX" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1731" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -731,7 +731,7 @@
           <mxGeometry x="-669" y="4760" width="180.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-244" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-671" y="4890" width="642.5" height="30" as="geometry" />
+          <mxGeometry x="-661" y="4890" width="541" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=0.416;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-246" target="NC4zICWyeDeuLVRUKaV7-244">
           <mxGeometry relative="1" as="geometry">
@@ -739,7 +739,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-246" value="分析后位置队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-448.5" y="4760" width="90" height="80" as="geometry" />
+          <mxGeometry x="-449.5" y="4760" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.589;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-248" target="NC4zICWyeDeuLVRUKaV7-244">
           <mxGeometry relative="1" as="geometry" />
@@ -747,25 +747,43 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-248" value="分析后报警队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-338.5" y="4760" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-249" value="终端数据分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="4960" width="161.5" height="70" as="geometry" />
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-249" value="分析顺序规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-666.5" y="4990" width="346.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-251">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.903;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-251" target="NC4zICWyeDeuLVRUKaV7-244">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-172.5" y="4890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-251" value="指令上行队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-214.5" y="4760" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.942;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-253" target="NC4zICWyeDeuLVRUKaV7-244">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-253" value="指令下行队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-108.5" y="4760" width="80" height="80" as="geometry" />
+          <mxGeometry x="-213" y="4760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-254" value="平台数据分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-347" y="4960" width="160" height="70" as="geometry" />
+          <mxGeometry x="-404.5" y="5200" width="106.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-255" value="车辆离线分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="5030" width="87.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-256" value="分析队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-666.5" y="5030" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-257" value="分析队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-593.75" y="5030" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-258" value="分析队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="5030" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-259" value="分析队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-447.5" y="5030" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-260" value="分析队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-374.25" y="5030" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-261" value="数据分配规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-666" y="4940" width="346" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-262" value="终端管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="4940" width="90" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

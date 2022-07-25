@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T08:31:48.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="F7JzghP8epQTFfFUO8zE" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T08:33:46.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="U4lCh62G6b7WRCer6Y68" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1731" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -812,6 +812,12 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-273" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-249.87" y="5250" width="51.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-279" value="分析后位置队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-676" y="5570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-281" value="分析后报警队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-529.5" y="5570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

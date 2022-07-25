@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T03:24:02.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="VHnU7cHmCcmwG6zNBRRA" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T03:27:07.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="VMGn_QMIcSId6ugUR3Uv" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1638" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-8" target="NC4zICWyeDeuLVRUKaV7-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-25" value="rtmp、hls、flv、28181" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-24">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-25" value="rtmp、hls、flv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-24">
           <mxGeometry x="-0.3237" relative="1" as="geometry">
             <mxPoint y="-23" as="offset" />
           </mxGeometry>
@@ -185,7 +185,7 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-45" value="定时获取与回调服务器情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-44">
           <mxGeometry x="0.0191" relative="1" as="geometry">
-            <mxPoint x="-41" as="offset" />
+            <mxPoint x="-84" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-8" value="srs流媒体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -210,9 +210,6 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-21" value="客户端" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" vertex="1" parent="1">
           <mxGeometry x="-384.25" y="1650" width="100" height="73" as="geometry" />
-        </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-23" target="NC4zICWyeDeuLVRUKaV7-40">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-23" value="Nginx(反向代理、lua动态代理)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-590" y="1770" width="511.5" height="30" as="geometry" />

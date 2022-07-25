@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T01:19:34.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="wmPx9MH_ZNeFygXAVdUP" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T02:08:01.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="dYeytQdiHr7wLN1unzJZ" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,10 +131,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-51" value="旁支需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="960" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="960" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MO-1pDGfZUei4c9xiznD-55" target="MO-1pDGfZUei4c9xiznD-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -149,7 +149,10 @@
           <mxGeometry x="-640" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-800" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-2" value="视频调度中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

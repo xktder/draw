@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T07:43:01.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="5BpL-aWCfQOZqT_h8kbh" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:43:46.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="Ogcth-2JBNHnKGRHpw_R" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-194" value="指令中心" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3510" width="700" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-85" value="数据接入服务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-709.5" y="2670" width="409.5" height="400" as="geometry" />
         </mxCell>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T08:26:35.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="1J8-ZBbgWR2OEFgb-iEE" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T08:27:31.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="7SZl4zp86OfvSOtCrJwD" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1731" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -733,7 +733,7 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-244" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-661" y="4890" width="451" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-249" value="分析顺序规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-249" value="分析顺序策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-666.5" y="4990" width="346.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.689;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-251" target="NC4zICWyeDeuLVRUKaV7-244">
@@ -769,13 +769,16 @@
           <mxGeometry x="-290" y="4940" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-264" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-666.5" y="5160" width="336.5" height="20" as="geometry" />
+          <mxGeometry x="-666.5" y="5180" width="276.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-265" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-314.25" y="5160" width="124.25" height="20" as="geometry" />
+          <mxGeometry x="-314.25" y="5180" width="124.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-266" value="mybatis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-179" y="5160" width="79" height="20" as="geometry" />
+          <mxGeometry x="-179" y="5180" width="79" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-267" value="数据分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-666.5" y="5140" width="356.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

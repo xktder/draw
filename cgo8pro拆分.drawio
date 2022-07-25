@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T07:24:20.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="thFTzhwYv1YXztZMasAA" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:28:18.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="CNh8R0wKU5RvMkS0TFxI" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -488,10 +488,10 @@
           <mxGeometry x="640" y="3380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-143" value="待发送指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="3670" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="3700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-145" value="高优先级待发送指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="3670" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="3700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-146" target="NC4zICWyeDeuLVRUKaV7-151">
           <mxGeometry relative="1" as="geometry" />
@@ -526,8 +526,11 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-156" value="客户端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="3260" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-160" value="过滤器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="3770" width="302.5" height="60" as="geometry" />
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-161" value="离线队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-162" value="终端列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3780" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

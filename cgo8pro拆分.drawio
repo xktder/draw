@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T03:33:57.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="DZgclb_J-zwPu5AUAXap" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T03:41:46.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="jIy5xWiPwGuFnwNm9W-q" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
-    <mxGraphModel dx="1544" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,8 +227,13 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-23" value="Nginx(反向代理、lua动态代理)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-640" y="1770" width="561.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-27" target="NC4zICWyeDeuLVRUKaV7-17">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-27" target="NC4zICWyeDeuLVRUKaV7-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-53" value="1078推流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-29">
+          <mxGeometry x="-0.2332" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-27" value="终端、1078平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-796" y="2160" width="120" height="60" as="geometry" />
@@ -262,6 +267,20 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-51" value="信令中心进行码流管理是否需要发送请求指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-47">
           <mxGeometry x="-0.1803" y="-1" relative="1" as="geometry">
             <mxPoint x="2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-40" target="NC4zICWyeDeuLVRUKaV7-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="1939" />
+              <mxPoint x="-340" y="2120" />
+              <mxPoint x="-452" y="2120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-56" value="通知播放器情况、拉流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-55">
+          <mxGeometry x="-0.0307" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-40" value="视频信令中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">

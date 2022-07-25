@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T07:35:28.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="U3oG9pTcS1NELh6whHaP" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:35:44.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="3Ms4kzzgs63j5uBljH57" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -558,7 +558,7 @@
             <mxPoint x="840" y="3300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-169" value="接口回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-167">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-169" value="http接口回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-167">
           <mxGeometry x="0.1769" y="2" relative="1" as="geometry">
             <mxPoint x="2" as="offset" />
           </mxGeometry>

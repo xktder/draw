@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T05:55:22.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="gyCqPDhadVKINJYF87CM" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T05:56:10.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="Ij1Zg1ZToasLvWT1WNKZ" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,6 +357,12 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-90" value="reids&lt;br&gt;&lt;br&gt;终端状态更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-386" y="3121" width="87.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-95" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-694.12" y="3040" width="261.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-96" value="redis组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="3040" width="86.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

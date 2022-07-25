@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T03:16:13.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="gzaN6p_xtysT--JDtibZ" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T03:17:06.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="SdTRfDofu1oYkkbA7X71" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1638" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="2130" width="510" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-32" value="音视频采集器" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-816" y="2110" width="170" height="250" as="geometry" />
         </mxCell>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T03:33:17.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="EmUN133SIrge6yDoeszu" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T03:33:29.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="Kf_dl-IbeOK1fuKHIsDT" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
-    <mxGraphModel dx="1694" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1867" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-51" value="信令中心进行码流管理是否需要发送请求指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NC4zICWyeDeuLVRUKaV7-47">
           <mxGeometry x="-0.1803" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="3" as="offset" />
+            <mxPoint x="2" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-40" value="视频信令中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">

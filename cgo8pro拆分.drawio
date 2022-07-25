@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T07:39:06.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="NgT6QMC8jv7omjdc0eGz" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T07:40:33.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="mkqnGTFlPXXpzLb6Ap1X" version="20.1.4" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="1867" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -541,7 +541,7 @@
         <mxCell id="NC4zICWyeDeuLVRUKaV7-162" value="终端列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="3750" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.111;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-163" target="NC4zICWyeDeuLVRUKaV7-170">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.14;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-163" target="NC4zICWyeDeuLVRUKaV7-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-163" value="终端当前接入的待发送指令队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -584,13 +584,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-170" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="3820" width="540" height="20" as="geometry" />
+          <mxGeometry x="340" y="3820" width="450" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NC4zICWyeDeuLVRUKaV7-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-177" target="NC4zICWyeDeuLVRUKaV7-170">
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-177" target="NC4zICWyeDeuLVRUKaV7-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NC4zICWyeDeuLVRUKaV7-177" value="指令接入应答队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="3880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-185" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3820" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NC4zICWyeDeuLVRUKaV7-186" target="NC4zICWyeDeuLVRUKaV7-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4zICWyeDeuLVRUKaV7-186" value="redis&lt;br&gt;车辆、指令状态维护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

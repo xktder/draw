@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-14T13:17:11.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="2LTiCjfpTDf18cqE6usv" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-14T13:19:50.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="WwJBMgzTW20jvFj8I2Nm" version="20.2.3" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
-    <mxGraphModel dx="1420" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1543" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -931,7 +931,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-2" value="&lt;b&gt;轨迹入库服务&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-86" y="5500" width="500" height="230" as="geometry" />
+          <mxGeometry x="-86" y="5500" width="486" height="180" as="geometry" />
         </mxCell>
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="V3FLGNO5Nzn9SHhfvd1E-4" target="V3FLGNO5Nzn9SHhfvd1E-9">
           <mxGeometry relative="1" as="geometry" />
@@ -948,26 +948,32 @@
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-9" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="15.62" y="5500" width="264.38" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-10" value="入库缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="15.620000000000005" y="5540" width="388" height="40" as="geometry" />
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-10" value="Quartz任务注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="15.62" y="5540" width="324.38" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-11" value="多线程批量入库" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="14.67999999999995" y="5660" width="388.38" height="33" as="geometry" />
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-12" value="任务分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14.12" y="5600" width="325.88" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-12" value="入库对象优化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="14.120000000000005" y="5600" width="389.5" height="42" as="geometry" />
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="V3FLGNO5Nzn9SHhfvd1E-13" target="V3FLGNO5Nzn9SHhfvd1E-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-13" value="mybatis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="14" y="5710" width="200" height="20" as="geometry" />
+          <mxGeometry x="14.12" y="5660" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-14" value="redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="264" y="5710" width="150" height="20" as="geometry" />
+          <mxGeometry x="370" y="5520" width="30" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-15" value="redis&lt;br&gt;状态维护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="273" y="5750" width="139" height="60" as="geometry" />
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V3FLGNO5Nzn9SHhfvd1E-15" target="V3FLGNO5Nzn9SHhfvd1E-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-16" value="mysql&lt;br&gt;轨迹、报警持久化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="52.5" y="5750" width="139" height="60" as="geometry" />
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="V3FLGNO5Nzn9SHhfvd1E-15" target="V3FLGNO5Nzn9SHhfvd1E-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-15" value="redis&lt;br&gt;任务状态维护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="434.5" y="5520" width="66" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V3FLGNO5Nzn9SHhfvd1E-16" value="mysql&lt;br&gt;任务结果持久化&lt;br&gt;任务状态分布式记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="44.62" y="5703" width="139" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

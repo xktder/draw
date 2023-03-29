@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T14:51:21.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="UBemQxtMR3Plhzj7L-HO" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T14:51:30.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="g3NkJkC4TbSjSGVsW-G2" version="21.1.1" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2204" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1069,7 +1069,7 @@
           <mxGeometry x="602.12" y="5207" width="267.88" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-10" value="短信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="550" y="5252" width="70" height="90" as="geometry" />
+          <mxGeometry x="564" y="5252" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-12" target="_hilzhpAPwXTLnMm-rkM-17">
           <mxGeometry relative="1" as="geometry" />
@@ -1093,16 +1093,16 @@
           <mxGeometry x="631.12" y="5410" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-20" value="email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="684.69" y="5252" width="70" height="90" as="geometry" />
+          <mxGeometry x="698.69" y="5252" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-21" value="语音" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="620" y="5252" width="64.69" height="90" as="geometry" />
+          <mxGeometry x="634" y="5252" width="64.69" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-22" value="微信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="754.6899999999999" y="5252" width="64.69" height="90" as="geometry" />
+          <mxGeometry x="768.6899999999999" y="5252" width="64.69" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-23" value="公众号、群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="819.3799999999999" y="5252" width="64.69" height="90" as="geometry" />
+          <mxGeometry x="833.3799999999999" y="5252" width="64.69" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

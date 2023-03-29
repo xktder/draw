@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T14:49:00.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="OG534-PtdLSh5GBpalb7" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T14:51:21.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="UBemQxtMR3Plhzj7L-HO" version="21.1.1" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2204" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1055,6 +1055,54 @@
         </mxCell>
         <mxCell id="_hilzhpAPwXTLnMm-rkM-1" value="业务队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="5400" width="97.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-3" value="&lt;b&gt;通知模块&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="5207" width="486" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-5" target="_hilzhpAPwXTLnMm-rkM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-5" value="通知队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="623.5" y="5107" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-8" value="kafka组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="602.12" y="5207" width="267.88" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-10" value="短信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="5252" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-12" target="_hilzhpAPwXTLnMm-rkM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-12" value="mybatis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600.62" y="5367" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-13" value="redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="956.5" y="5227" width="30" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-16" target="_hilzhpAPwXTLnMm-rkM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-16" target="_hilzhpAPwXTLnMm-rkM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-16" value="redis&lt;br&gt;通知状态维护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="5227" width="66" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-17" value="mysql&lt;br&gt;任务结果持久化&lt;br&gt;任务状态分布式记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="631.12" y="5410" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-20" value="email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="684.69" y="5252" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-21" value="语音" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="5252" width="64.69" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-22" value="微信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="754.6899999999999" y="5252" width="64.69" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-23" value="公众号、群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="819.3799999999999" y="5252" width="64.69" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

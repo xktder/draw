@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T05:38:01.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="-ZHdGvOqMq1VC4oSt5mp" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T14:48:49.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="OwLNEo6lu7gvp1YO5C0J" version="21.1.1" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2204" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1049,6 +1049,12 @@
         </mxCell>
         <mxCell id="V3FLGNO5Nzn9SHhfvd1E-51" value="mysql&lt;br&gt;转发管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="280" y="6037" width="66" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.966;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_hilzhpAPwXTLnMm-rkM-1" target="V3FLGNO5Nzn9SHhfvd1E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_hilzhpAPwXTLnMm-rkM-1" value="业务队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="5400" width="97.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

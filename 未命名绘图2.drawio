@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:58:47.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="JiAT10sFXxbDoEU47cZp" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T13:59:32.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="K4A1XFcpUf7w2RZWgMEM" version="21.1.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="1377" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -476,6 +476,23 @@
         </mxCell>
         <mxCell id="KegD0Um9H_0uhLg5imTw-284" value="网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1250" y="827" width="15" height="583" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-285" value="终端、平台" style="swimlane;whiteSpace=wrap;fillColor=#e1d5e7;swimlaneFillColor=#BAC8D3;fontFamily=Tahoma;html=1;strokeColor=#9673a6;opacity=50;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="804" width="110" height="615" as="geometry">
+            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-286" value="客户端" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-285">
+          <mxGeometry x="20" y="50" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-287" value="平台" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-285">
+          <mxGeometry x="20" y="356" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-289" value="平台" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-285">
+          <mxGeometry x="20" y="456" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-290" value="客户端" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-285">
+          <mxGeometry x="20" y="136" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

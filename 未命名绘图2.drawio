@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:47:36.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="IJtE5yeq2b9019PTgkbB" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T13:49:08.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="ICiDwOxBz5g7CfuOY_Tn" version="21.1.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="1377" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -397,6 +397,23 @@
         </mxCell>
         <mxCell id="KegD0Um9H_0uhLg5imTw-261" value="通用入库队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="20" y="306" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-262" value="" style="swimlane;whiteSpace=wrap;fillColor=none;swimlaneFillColor=#BAC8D3;fontColor=#2F5B7C;fontFamily=Tahoma;html=1;strokeColor=none;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="984.5" y="804" width="105.5" height="606" as="geometry">
+            <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-263" value="定时服务" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-262">
+          <mxGeometry x="20" y="50" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-264" value="通知中心" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-262">
+          <mxGeometry x="20" y="276" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-265" value="通知中心" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-262">
+          <mxGeometry x="20" y="366" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KegD0Um9H_0uhLg5imTw-266" value="定时服务" style="shape=document;whiteSpace=wrap;verticalAlign=middle;strokeColor=none;fillColor=#12aab5;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;spacingBottom=22;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-262">
+          <mxGeometry x="20" y="146" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

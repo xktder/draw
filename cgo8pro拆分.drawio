@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T08:16:05.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="-koEr4zmIymAzlWDHBxP" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T05:38:01.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="-ZHdGvOqMq1VC4oSt5mp" version="21.1.1" type="github">
   <diagram id="a1YMiP02obhroM_0bBU3" name="第 1 页">
     <mxGraphModel dx="2204" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,13 +85,13 @@
         <mxCell id="MO-1pDGfZUei4c9xiznD-11" value="指令" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="340" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MO-1pDGfZUei4c9xiznD-13" value="视频" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="MO-1pDGfZUei4c9xiznD-13" value="实时监控" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="300" y="340" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MO-1pDGfZUei4c9xiznD-15" value="轨迹回放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="MO-1pDGfZUei4c9xiznD-15" value="报表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="420" y="340" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MO-1pDGfZUei4c9xiznD-21" value="文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="MO-1pDGfZUei4c9xiznD-21" value="视频" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="540" y="340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MO-1pDGfZUei4c9xiznD-23" target="MO-1pDGfZUei4c9xiznD-3" edge="1">
@@ -101,9 +101,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-23" value="核心需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MO-1pDGfZUei4c9xiznD-27" value="转发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="MO-1pDGfZUei4c9xiznD-27" value="政府转发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="670" y="340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-31" value="接入上传、用户上传、平台自产生..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
@@ -164,7 +164,7 @@
           <mxGeometry x="-640" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-57" value="指令中心" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="314.5" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MO-1pDGfZUei4c9xiznD-60" value="实时位置、实时报警" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="840" width="120" height="60" as="geometry" />

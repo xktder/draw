@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T14:05:33.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="gA10K3DLYdnVLH6csV0x" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T14:05:41.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="sgeAbxWPRYunf7cQAD-T" version="21.1.1" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="1377" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -374,19 +374,19 @@
             <mxRectangle x="20" y="20" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KegD0Um9H_0uhLg5imTw-257" value="业务位置队列" style="whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
+        <mxCell id="KegD0Um9H_0uhLg5imTw-257" value="业务位置队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="19" y="60" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KegD0Um9H_0uhLg5imTw-258" value="业务报警队列" style="whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
+        <mxCell id="KegD0Um9H_0uhLg5imTw-258" value="业务报警队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="20" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KegD0Um9H_0uhLg5imTw-259" value="业务队列" style="whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
+        <mxCell id="KegD0Um9H_0uhLg5imTw-259" value="业务队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="20" y="180" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KegD0Um9H_0uhLg5imTw-260" value="通知队列" style="whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
+        <mxCell id="KegD0Um9H_0uhLg5imTw-260" value="通知队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="20" y="240" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KegD0Um9H_0uhLg5imTw-261" value="通用入库队列" style="whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
+        <mxCell id="KegD0Um9H_0uhLg5imTw-261" value="通用入库队列" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" vertex="1" parent="KegD0Um9H_0uhLg5imTw-256">
           <mxGeometry x="20" y="306" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KegD0Um9H_0uhLg5imTw-262" value="" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;swimlaneFillColor=#C7E9FC;fontFamily=Tahoma;html=1;strokeColor=#6c8ebf;opacity=50;" vertex="1" parent="1">

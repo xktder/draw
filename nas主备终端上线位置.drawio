@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T03:39:21.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.0.8" etag="7P-X3IEHKFno7uA-zDTE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T03:39:26.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="4d1eUvWHjhBIN_EZ0yu9" version="22.0.8" type="github">
   <diagram name="第 1 页" id="JRrlMxC2_B8CHurWPLDc">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="-2756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-1" value="接入" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3920" width="196" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-2" value="809" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="665" y="3810" width="745" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-4" target="UCwlyn8cHIrKDs5Shonr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-4" value="车1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="3940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="4030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="4080" />
+              <mxPoint x="830" y="4030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-6" value="车2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="4040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-9" target="UCwlyn8cHIrKDs5Shonr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-9" target="UCwlyn8cHIrKDs5Shonr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-9" value="补偿分析&lt;br&gt;车辆" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-12" target="UCwlyn8cHIrKDs5Shonr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-12" target="UCwlyn8cHIrKDs5Shonr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-12" value="updata&lt;br&gt;位置&lt;br&gt;是使用车1&lt;br&gt;使用车2？" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="880" y="3990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="4030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-14" value="车1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="3990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-15" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1136" y="4077" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-16" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="4077" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-17" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="4077" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-18" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="4077" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-19" value="用户过滤=&amp;gt;位置过滤" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="3840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-20" value="发现补偿的有问题&lt;br&gt;把车辆状态更改为故障" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="3890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-23" target="UCwlyn8cHIrKDs5Shonr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-23" target="UCwlyn8cHIrKDs5Shonr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-23" value="车1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="4000" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UCwlyn8cHIrKDs5Shonr-25" target="UCwlyn8cHIrKDs5Shonr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-25" value="车2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="4092" width="56" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-26" value="漂移" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="4010" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-27" value="漂移" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="4096.5" width="52" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UCwlyn8cHIrKDs5Shonr-28" value="故障的位置，在平台上还要不要" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
